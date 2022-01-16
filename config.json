@@ -1,9 +1,0 @@
-{
-  "params":
-  {
-    "local_uri": "mysql+pymysql://root:@localhost/careerhome",
-    "blog_name": "Career Home Portal",
-    "user_name": "your email id",
-    "password": "your pwd"
-  }
-}
