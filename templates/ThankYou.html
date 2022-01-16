@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Home</title>
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="{{url_for('static', filename ='images/job-icon.png')}}" />
+</head>
+<body>
+<div class="split left">
+  <div class="card">
+    <img src="{{url_for('static', filename ='images/register_img.png')}}" style="width:90%">
+    <h1>Registered</h1>
+  </div>
+</div>
+<div class="top">
+  <p></p>
+</div>
+<div class="centered">
+  <h1 style="font-family: Papyrus;color:white" align="center">Career Home Portal</h1>
+  <h3 style="font-family:Sans Serif; color:white"><i>Thank you {{uname}} for registering with us. You will get your weekly updates
+  every Saturday at 10.00 am IST on your registered email id.</i></h3>
+
+  <br/><br/><br/>
+</div>
+<br/>
+<div class="footer">
+  <p>&copy; All rights reserved 2022</p>
+</div>
+<div class="split right">
+  <div class="card">
+    <img src="{{url_for('static', filename ='images/about-us.png')}}" style="width:90%">
+    <h1>About Us</h1>
+    <p text-align="center">We, at Career Home help people to find jobs at much easier and faster rate by providing them
+      the latest job openings link on their selected skills.</p>
+    <p class="fee">Build your career with us</p>
+  </div>
+</div>
+</body>
+</html>
